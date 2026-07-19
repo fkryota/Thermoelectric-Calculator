@@ -1,0 +1,18 @@
+{
+  "name": "Thermoelectric Calculator",
+  "short_name": "ZT Calc",
+  "description": "Calculate thermoelectric power factor and dimensionless ZT offline.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#f5fbf9",
+  "theme_color": "#0e6f68",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
