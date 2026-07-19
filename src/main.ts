@@ -37,7 +37,7 @@ app.innerHTML = `
     </header>
 
     <section class="formula-strip" aria-label="Formulas">
-      <span><var>PF</var> = <var>S</var><sup>2</sup><var>σ</var></span>
+      <span><span class="math-roman">PF</span> = <var>S</var><sup>2</sup><var>σ</var></span>
       <span><var>ZT</var> = <var>S</var><sup>2</sup><var>σT</var>/<var>κ</var></span>
     </section>
 
@@ -104,7 +104,7 @@ app.innerHTML = `
       </div>
 
       <div class="zt-panel">
-        <span class="result-label">ZT</span>
+        <span class="result-label zt-symbol">ZT</span>
         <output class="zt-value" id="zt-output">—</output>
         <span class="dimensionless">dimensionless</span>
       </div>

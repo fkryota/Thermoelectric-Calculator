@@ -163,12 +163,16 @@ h2 {
 }
 
 .formula-strip var {
-  font-style: normal;
+  font-style: italic;
 }
 
 .formula-strip sup {
   font-size: 0.72em;
   line-height: 0;
+}
+
+.math-roman {
+  font-style: normal;
 }
 
 .card {
@@ -277,6 +281,14 @@ select {
   font-size: 0.78rem;
   font-weight: 800;
   text-transform: uppercase;
+}
+
+.zt-symbol {
+  font-family: "Latin Modern Math", "STIX Two Math", "Cambria Math", serif;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  text-transform: none;
 }
 
 .zt-value {
