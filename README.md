@@ -51,3 +51,7 @@ npm run build
 ## PWA Notes
 
 The app includes a web app manifest and service worker. After deployment over HTTPS, supported mobile browsers can install it to the home screen and use cached assets offline.
+
+## Font
+
+Formula text uses the bundled Latin Modern Math web font.

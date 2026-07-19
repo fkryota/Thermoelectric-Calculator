@@ -1,6 +1,6 @@
 /* global caches, fetch, self */
 
-const CACHE_NAME = 'thermoelectric-calculator-v1';
+const CACHE_NAME = 'thermoelectric-calculator-v2';
 const CORE_ASSETS = ['./', './manifest.webmanifest', './icons/icon.svg'];
 
 self.addEventListener('install', (event) => {

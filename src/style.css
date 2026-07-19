@@ -1,3 +1,11 @@
+@font-face {
+  font-family: "Latin Modern Math";
+  src: url("./assets/latinmodern-math.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
 :root {
   color-scheme: light dark;
   font-family:
@@ -149,15 +157,13 @@ h2 {
   border-radius: 8px;
   background: var(--surface-strong);
   text-align: center;
-  font-family:
-    "Computer Modern Serif", "Latin Modern Math", "STIX Two Math", "Cambria Math",
-    "Times New Roman", serif;
-  font-size: 1.08rem;
+  font-family: "Latin Modern Math", "STIX Two Math", "Cambria Math", serif;
+  font-size: 1.16rem;
   letter-spacing: 0;
 }
 
 .formula-strip var {
-  font-style: italic;
+  font-style: normal;
 }
 
 .formula-strip sup {
