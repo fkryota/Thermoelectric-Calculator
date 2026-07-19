@@ -37,8 +37,8 @@ app.innerHTML = `
     </header>
 
     <section class="formula-strip" aria-label="Formulas">
-      <span><strong>PF</strong> = S²σ</span>
-      <span><strong>ZT</strong> = S²σT/κ</span>
+      <span><var>PF</var> = <var>S</var><sup>2</sup><var>σ</var></span>
+      <span><var>ZT</var> = <var>S</var><sup>2</sup><var>σT</var>/<var>κ</var></span>
     </section>
 
     <section class="card input-card" aria-labelledby="input-title">
